@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { CheckBox as NativeCheckBox, StyleSheet, Text, View, Image, TextInput, Button, ScrollView } from 'react-native';
 import StaticComponent from "./src/components/test/StaticComponent";
 import WithParams from "./src/components/test/WithParams";
@@ -8,7 +8,7 @@ import CheckBox from './src/components/custom/CheckBox';
 import InputWithLabel, { ALIGNMENT } from './src/components/complex/InputWithLabel';
 
 
-export default class App extends React.Component {
+export default class App extends Component {
   constructor(props) {
     super(props);
 
@@ -17,7 +17,7 @@ export default class App extends React.Component {
     };
   }
 
-  checkBox_Test = (id) => {
+  checkBoxTest = (id) => {
     this.setState((prevState) => ({
         check: !prevState.check
     }));
@@ -40,7 +40,7 @@ export default class App extends React.Component {
           <TextInput style={styles.input} />
           <NativeCheckBox
               style={styles.checkBox}
-              value={this.state.check} onChange={this.checkBox_Test}/>
+              value={this.state.check} onChange={this.checkBoxTest}/>
           <NativeCheckBox/>
         <View>
           <StaticComponent/>
@@ -87,7 +87,6 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#ffa',
-    // alignItems: 'center',
     justifyContent: 'center',
   },
     center: {
