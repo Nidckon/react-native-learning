@@ -1,0 +1,10 @@
+{
+  "packagerPort": 19001,
+  "packagerPid": 11368,
+  "webpackServerPort": null,
+  "expoServerNgrokUrl": "https://gn-fna.anonymous.componenttest.exp.direct",
+  "packagerNgrokUrl": "https://packager.gn-fna.anonymous.componenttest.exp.direct",
+  "ngrokPid": 4252,
+  "devToolsPort": 19002,
+  "expoServerPort": 19000
+}
