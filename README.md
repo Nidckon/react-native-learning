@@ -4,7 +4,7 @@ I'm learning react-native here
 
 # About Projects
 
-## ComponentTest
+## ComponentTest - [[read more]](ComponentTest/README.md)
 This is the project when I will test Native and Custom (Complex) Components.
 I will check properties, methods and reaction.
 - native components
@@ -13,14 +13,14 @@ I will check properties, methods and reaction.
 - methods
 - reaction
 
-## ReduxTest
+## ReduxTest - [[read more]](ReduxTest/README.md)
 Here I will use redux to save the state of whole application.
 - redux
 - state
 - reducer
 - subscriber
 
-## SplendorBoardGame
+## SplendorBoardGame - [[read more]](SplendorBoardGame/README.md)
 This will be game based on all of projects above.
 Splendor is the board game which have own implementation and all, 
 what will be doing here, is creating a bigger and complex project to learn React & Redux.
